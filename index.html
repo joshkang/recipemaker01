@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Account Management System</title>
+
+<link rel="stylesheet" href="content/css/layout.css">
+<link rel="stylesheet" href="content/css/scotia_layout.css">
+<script src="content/js/jquery-2.1.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="content/css/bootstrap.css" />
+
+</head>
+
+<body >
+
+
+<!-- contents -->
+
+<div class="container " >
+
+
+
+
+<!-- left menu -->
+<div id="sticky">
+
+  <div id="left_menu_01"> 
+  Seach result 
+  </div>
+
+  <!-- arrow -->
+  <div id="left_menu_handle" onclick="HideLeftMenu();" > 
+  ◄
+  </div>
+  <!-- / arrow -->
+
+</div>
+<!-- left menu -->
+
+
+
+
+
+
+
+<!-- right_contents -->
+<div class="right_contents_01">
+
+<!-- inner_contents -->
+  <div role="tabpanel" class="tab-pane fade in active contents_01" id="home1" >
+  
+  <div class="contents_01">                    
+  
+  <div class="contents_01">
+
+  <div >
+  Trading Authority <input type="checkbox" onclick="$('#progress, progress2').toggle();" checked> |  
+  Power of Attorney <input type="checkbox" onclick="$('#progress1, progress3').toggle();" checked>  | 
+  Beneficiary <input type="checkbox" onclick="$('#progress4, progress6').toggle();" checked> 
+  </div>
+  </div>
+  
+  <table class="table"  >
+    <thead >
+      <tr >
+      <th id="progress">Trading Authority ▼</th>
+      <th id="progress1">Power of Attorney ▼</th>
+      <th id="progress4">Beneficiary ▼</th>
+      </tr>
+    </thead>
+    
+    <tbody>
+      <tr>
+      <td id="progress">
+      <button type="button" class="btn btn-warning" >Trading Authority </button>
+      </td>         
+      <td id="progress1">
+      <button type="button" class="btn btn-primary" >Power of Attorney </button>
+      </td>  
+      <td id="progress4">
+      <button type="button" class="btn btn-success" >Beneficiary </button>
+      </td>         
+      
+      </tr>
+    </tbody>
+    
+    <tbody>
+      <tr>
+        <td id="progress" >
+        <button type="button" class="btn btn-warning" >Trading Authority </button>
+        </td>         
+        <td id="progress1">
+        <button type="button" class="btn btn-primary" >Power of Attorney </button>
+        </td> 
+        <td id="progress4">
+        <button type="button" class="btn btn-success" >Beneficiary </button>
+        </td> 
+      </tr>
+    </tbody>
+    
+    <tbody>
+      <tr >
+        <td id="progress">
+        <button type="button" class="btn btn-warning" >Trading Authority </button>
+        </td>         
+        <td id="progress1">
+        <button type="button" class="btn btn-primary" >Power of Attorney </button>
+        </td>         
+        <td id="progress4">
+        <button type="button" class="btn btn-default"  > Beneficiary </button>
+        </td>         
+      </tr>
+    </tbody>
+  
+  </table>
+  
+  
+  </div>
+  </div>
+<!-- /inner_contnets -->
+
+</div>
+<!-- /right_contents -->
+
+
+</div>
+<!-- /contents -->
+
+
+
+
+
+<!-- Bootstrap Core JavaScript -->
+<script src="content/js/bootstrap.min.js"></script>
+<script src="content/js/leftmenu.js"></script>
+
+</body>
+</html>

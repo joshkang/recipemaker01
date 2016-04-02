@@ -1,0 +1,417 @@
+@charset "utf-8";
+
+img, object, embed, video {
+	max-width: 100%;
+}
+
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+
+
+
+* {
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	list-style-type:none; 
+	text-decoration:none;
+
+
+	
+}
+/* header */
+.header {
+	width:100%;
+	float:left;
+	
+}
+.header_logo {
+	float:left;
+	margin:5px;
+}
+.header_title {
+	float:left;
+	color:white;
+	font-size:20px;
+	margin-top:15px;
+	margin-left:10px;
+}
+.acount {
+	color:white;
+	margin-top:15px;
+
+	
+}
+.logout {
+	float:right;
+	margin:10px;
+	margin-right:20px;
+}
+
+
+
+/* header */
+
+/* btns */
+.btn_01 {
+	border:1px solid white;
+	color:white;
+	padding:5px;
+	border-radius:5px;
+
+}
+.btn_01:hover {
+	color:#00549a;
+	background-color:white;
+}
+.search_btn {
+
+	color:#00549a;
+	padding:11px;
+	border-radius:5px;
+	background-color:white;
+
+}
+.search_btn:hover {
+
+	color:white;
+	background-color:#013968;
+
+}
+/* btns */
+
+/* search */
+
+.search_outer_wrapper {
+	width:545px;
+	margin:auto;
+}
+.search_inner_wrapper {
+	float:left;
+
+	margin-top:20px;
+	margin-bottom:20px;
+	border-radius:5px;
+	padding:20px;
+	background-color:#00549a;
+}
+.search_select {
+	float:left;
+	
+}
+.search_or {
+	float:left;
+	margin-top:9px;
+	margin-left:10px;
+	margin-right:10px;
+	color:white;
+	font-weight:bold;
+	font-size:20px;
+}
+.search_name {
+	float:left;
+	
+}
+.search_btn_wrapper {
+	float:left;
+	margin-left:15px;
+}
+
+.search_3d {
+  box-shadow: 0 1px 0 #00549a,
+               0 2px 0 #014985,
+               0 3px 0 #013967,
+               0 4px 0 #012c51,
+               0 5px 0 #001e37,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+.search_3d_btn {
+  box-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+}
+.search_3d_btn:hover {
+  box-shadow:                0 1px 0 #013967,
+               0 2px 0 #012c51,
+               0 3px 0 #001e37,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+}
+.search-gradation {
+background: #d3d3d3; /* Old browsers */
+background: -moz-linear-gradient(top,  #d3d3d3 0%, #dbdbdb 89%, #afafaf 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #d3d3d3 0%,#dbdbdb 89%,#afafaf 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #d3d3d3 0%,#dbdbdb 89%,#afafaf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3d3d3', endColorstr='#afafaf',GradientType=0 ); /* IE6-9 */
+
+}
+
+.settings_btn {
+	margin-top:7px; color:white; border:1px solid white; padding:5px;
+	float:right; font-size:10px;
+	cursor:pointer
+}
+.settings_btn:hover {
+	color:#939393; border:1px solid #939393; 
+}
+/* search */
+
+/* tap */
+.tap_wrapper {
+	float:left;
+	width:100%;
+	
+}
+
+
+
+.batch {
+	background-color:white;
+	color:#00549a;
+	text-align:center;
+	border-radius:5px;
+	float:right;
+	padding:3px;
+	padding-left:5px;
+	padding-right:5px;
+	margin-left:10px;
+	font-size:12px;
+	
+}
+.tap_gap_01 {
+	padding-bottom:1px !important;
+	background-color:rgba(255,255,255,0.00);
+	padding-top:3px;
+
+}
+.tap_gap_02 {
+	margin-left:30px;
+	
+}
+.nav-tabs {
+	border-bottom:0px solid #00549a !important;
+}
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border-top: 2px solid #939393 !important;
+    border-left: 2px solid #939393 !important;
+  border-right: 2px solid #939393 !important;
+  border-bottom: 0px solid #939393 !important;
+
+  border-radius: 5px 5px 0 0 !important;
+  background-color:#939393 !important;
+  color:white !important;
+
+}
+
+
+
+.nav-tabs > li > a:hover {
+  border-color: #B0B0B0 #B0B0B0 #B0B0B0 !important;
+  background-color:#B0B0B0 !important;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #00549a !important;
+  cursor: default;
+  background-color: #ebe9e9 !important;
+  border: 2px solid #ebe9e9 !important;
+    border-bottom: 0px solid white !important;
+
+}
+
+/* tap */
+.contents_back_gradation {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00549a+0,00203a+21,00203a+21,00203a+54 */
+background: #00549a; /* Old browsers */
+background: -moz-linear-gradient(top,  #00549a 0%, #00203a 21%, #00203a 21%, #00203a 54%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #00549a 0%,#00203a 21%,#00203a 21%,#00203a 54%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #00549a 0%,#00203a 21%,#00203a 21%,#00203a 54%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00549a', endColorstr='#00203a',GradientType=0 ); /* IE6-9 */
+
+
+
+}
+
+
+
+/* flexbox */
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+}
+
+.flex-item {
+    margin: 5px;
+	border:1px solid #bbbaba;
+	border-radius:5px;
+	padding:5px;
+}
+
+.item1 {
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+.item2 {
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+.item3 {
+    -webkit-flex: 1;
+    flex: 1;
+}
+.item4 {
+    -webkit-flex: 1;
+    flex: 1;
+}
+.item5 {
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  color: #fff;
+  cursor: default;
+  background-color: #555555 !important;
+  border-color: #00549a !!important;
+}
+
+.vertical-container {
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+
+#sticky.stick {
+    position: fixed;
+    top: 0;
+}
+
+
+.input_01 {
+  border: 0px solid #999;
+  border-radius: 5px !important;
+  }
+
+.input_01:focus {
+  border: 0px solid #fff;
+  background-color: #fff;
+    color: #013678;
+}
+/*==================================================
+ * Effect 8
+ * ===============================================*/
+.effect8
+{
+    position:relative;
+    -webkit-box-shadow:0 0px 40px rgba(0, 0, 0, 0.3), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 0px 40px rgba(0, 0, 0, 0.3), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 0px 40px rgba(0, 0, 0, 0.3), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+}
+/* flexbox */
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+}
+
+.flex-item {
+    margin: 5px;
+	border:1px solid #bbbaba;
+	border-radius:5px;
+	padding:5px;
+}
+
+.item1 {
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+.item2 {
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+.item3 {
+    -webkit-flex: 1;
+    flex: 1;
+}
+.item4 {
+    -webkit-flex: 1;
+    flex: 1;
+}
+.item5 {
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+#sticky {
+  width: 254px;
+		float:left;
+
+
+
+}
+#sticky.stick {
+  position: fixed;
+
+}
+.contents_01 {
+	width:100%;
+
+
+
+
+	float:left;
+
+	
+		
+}
+@media only screen and (min-width: 481px) {
+
+
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 768px) {
+
+
+
+}
